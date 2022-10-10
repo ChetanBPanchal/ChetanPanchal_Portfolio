@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+html {
+  background-color: black;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgba(0, 0, 0, .9);
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+
+.back {
+  padding-top: 60px;
+  padding-left: 10px;
+  background-color: black;
+}
+
+
+.headertext {
+  font-size: 64px;
+  font-family: 'Merriweather', serif;
+  color: aliceblue;
+  -webkit-text-decoration-color: rgb(210, 226, 206);
+  /* Safari */
+  text-decoration-color: rgb(237, 224, 224);
+}
+
+.basicsummry {
+  font-size: 32px;
+  font-family: 'Quantico', sans-serif;
+  color: aliceblue;
+  -webkit-text-decoration-color: rgb(210, 226, 206);
+  /* Safari */
+  text-decoration-color: rgb(237, 224, 224);
+}
+
+.normalText {
+  font-size: 28px;
+  color: aliceblue;
+  -webkit-text-decoration-color: rgb(210, 226, 206);
+  /* Safari */
+  text-decoration-color: rgb(237, 224, 224);
+}
+
+/* Button */
+.button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 16px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
