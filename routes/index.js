@@ -12,4 +12,12 @@ router.get('/contactus', function(req, res, next) {
   res.render('contactus', { title: 'Contact Us'});
 });
 
+router.get('/aboutme', function(req, res, next) {
+  res.render('aboutme', { title: 'About Me'});
+});
+
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects'});
+});
+
 module.exports = router;
