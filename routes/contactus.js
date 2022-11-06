@@ -6,6 +6,7 @@ const path = require('path')
 const axios = require('axios');
 
 async function sendEmail(name, email, message,mobilenumber) {
+
   const data = JSON.stringify({
     "Messages": [{
       "From": {"Email":  email, "Name":  name},
@@ -33,12 +34,12 @@ async function sendEmail(name, email, message,mobilenumber) {
 
 }
 
-// define your own email api which points to your server.
-app.post('/api/sendemail/', function (req, res) {
-  const {name, email, subject, message} = req.body;
-  //implement your spam protection or checks.
-  sendEmail(name, email, subject, message);
-});
+// // define your own email api which points to your server.
+// app.post('/api/sendemail/', function (req, res) {
+//   const {name, email, subject, message} = req.body;
+//   //implement your spam protection or checks.
+//   sendEmail(name, email, subject, message);
+// });
 
 
 module.exports = router;
